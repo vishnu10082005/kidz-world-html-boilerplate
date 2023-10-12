@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #191925;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8AWX06S8eskhZvd_8ROxlob1KNwlPQkJUjsWkZ2Ybiut2u4HHDGeU8rW1hR9uOLubglI&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
+
+.heder{
+    display: flex;
+    justify-content: space-between;
+    width: 100pc;
+    background-color: black;
+    margin-top: -10px;
+    height: 9vh;
+    align-items: center;
+    margin-left: -10px;
+}
+.myportfolio{
+    color: white;
+    font-family:monospace;
+    border: 1px solid none;
+    margin-left: 30px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 5px yellow,0 0 25px yellow;
+    
+}
+span{
+    background: green;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.href{
+border: 1px solid none;
+background-color: rgb(8, 241, 241);
+color: black;
+padding: 10px;
+border-radius: 20px;
+font-size: 12px;
+font-family: monospace;
+box-shadow: 0 0 5px cyan,0 0 25px cyan;
+}
+herf:hover{
+    box-shadow: 0 0 5px yellow;
+    box-shadow: 0 0 10px yellow;
+    box-shadow: 0 0 25px yellow;
+    box-shadow: 0 0 100px #b64518;
+    box-shadow: 0 0 200px yellow;
+}
+myportfolio:hover span{
+    width: 100%;
+   
+}
+.links{
+    /* margin-top: 2pc; */
+}
+.body{
+     color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+.name1{
+    margin-top: -3px;
+    font-size: 30px;
+    color: rgb(138,138,150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  header {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    margin: 0;
+  }
+  
+  .project p {
+    margin-top: 5px;
+  }
+  

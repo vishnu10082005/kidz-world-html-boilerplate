@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/03/38/48/62/360_F_338486208_fbzGlyyEU5rZ8T3mc2A6ba1KHJmAYJe4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    margin-left: 300px;
+}
+.text:active {
+    transform: scale(0);
+}
+
+.text:hover {
+    border-color:yellow;
+    box-shadow: 0px 4px 5px orange, 0 0 25px orange;
+    box-shadow: 0px 4px 50px orange, 0 0 100px orange;
+}
+.hobbies{
+    border: 1px solid black;
+    width: 300px;
+    color: white;
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+    background-color: black;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.image{
+    width: 220px;
+     margin-left: -20px   ;
+    margin-top: 10px;
+    height: 220px; 
+}
+.name{
+    font-size: 40px;
+    
+}
+.name:active {
+    transform: scale(0);
+}
+
+.name:hover {
+    border-color: cyan;
+    box-shadow: 0px 4px 5px blue, 0 0 25px blue;
+    box-shadow: 0px 4px 50px blue, 0 0 100px blue;
+    border-radius: 20px;
+}.hobbies:active {
+    transform: scale(0);
+}
+
+.hobbies:hover {
+    border-color:cyan;
+    box-shadow: 0px 4px 5px cyan, 0 0 25px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+}
+.hobbiesflex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 950px;
+    /* height: 950px; */
+    margin: auto;
+    
+    
+}
+.footer{
+    border: 1px solid white;
+    width: 60px;
+}
+.home:active {
+    transform: scale(0.96);
+}
+
+.home:hover {
+    border-color:cyan;
+    box-shadow: 0px 4px 5px cyan, 0 0 25px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+    border-color: cyan;
+}
+.home{
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 75pc;
+    margin-top: -20pc;
+ 
+}
+button{
+    width: 3px;
+}

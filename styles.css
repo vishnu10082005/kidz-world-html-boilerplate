@@ -1,0 +1,122 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/03/38/48/62/360_F_338486208_fbzGlyyEU5rZ8T3mc2A6ba1KHJmAYJe4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    text-align: center;
+}
+.profilepicbox{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    font-size: 15px;
+    border-radius: 20px;
+    box-shadow: 2px 2px red;
+    padding: 60px;
+}
+.circlelogo{
+    margin-left: 29px;
+    margin-top: -50px;
+}
+.profilepicbox:active {
+    transform: scale(0.96);
+}
+
+.profilepicbox:hover {
+
+    box-shadow: 0px 4px 5px yellow, 0 0 25px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+}
+.circlelogo:active {
+    transform: scale(0.96);
+}
+
+.circlelogo:hover {
+    box-shadow: 0px 4px 5px yellow, 0 0 25px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+}
+.aboutme{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    width: 700px;
+    /* height: 600px; */
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-family:cursive;
+    box-shadow: 0px 0px 2px 2px red;
+
+}
+.aboutme:active {
+    transform: scale(0.96);
+}
+
+.aboutme:hover {
+    box-shadow: 0px 4px 5px yellow, 0 0 25px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+}
+.flex{
+    display: flex;
+    width: 75pc;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.my{
+    
+}
+.Kalvium{
+    font-size: 10rem;
+    font-family:cursive;
+    color: transparent;
+    -webkit-text-stroke: 3px red;
+    border: 1px solid none;
+    width: 750px;
+    text-align: center;
+    margin-left: 250px;
+    border-radius: 20px;
+    
+    
+
+}
+.Kalvium:active {
+    transform: scale(0.96);
+}
+
+.Kalvium:hover {
+    border-color: red;
+    box-shadow: 0px 4px 5px red, 0 0 25px red;
+    box-shadow: 0px 4px 50px red, 0 0 100px red;
+}
+.message{
+    color: black;
+    margin-left: 1050px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    background-color: cyan;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+
+}
+.message:active {
+    transform: scale(0.96);
+}
+
+.message:hover {
+    border-color: cyan;
+    box-shadow: 0px 50px 50px cyan, 0 0 0px cyan;
+    box-shadow: 0px 4px 50px cyan, 0 0 100px cyan;
+}
